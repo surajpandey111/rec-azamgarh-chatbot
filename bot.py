@@ -6,11 +6,11 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 import google.generativeai as genai
 import os
 
-# Set up Gemini API
-genai.configure(api_key=os.getenv("GEMINI_API_KEY", "your-actual-api-key"))  # Replace with your actual API key
-gemini = genai.GenerativeModel("gemini-1.5-flash")  # Use a valid model name
 
-# Load and split documents (cached globally)
+genai.configure(api_key=os.getenv("GEMINI_API_KEY", "your-actual-api-key"))
+gemini = genai.GenerativeModel("gemini-1.5-flash") 
+
+
 @st.cache_resource
 def load_documents():
     loader = TextLoader("rec_azamgarh_info.txt")
@@ -18,11 +18,11 @@ def load_documents():
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
     return text_splitter.split_documents(docs)
 
-# Embed documents (cached globally)
+
 @st.cache_resource
-def embed_documents(_docs):  # Use underscore to bypass hashing
-    texts = [doc.page_content for doc in _docs]  # Extract text from documents
-    # Use HuggingFaceEmbeddings to wrap the SentenceTransformer model
+def embed_documents(_docs): 
+    texts = [doc.page_content for doc in _docs]  
+    
     embedding_model = HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
     # Create FAISS index using the embedding model
     db = FAISS.from_texts(texts, embedding=embedding_model, metadatas=[{"text": text} for text in texts])
@@ -39,7 +39,7 @@ st.write("Ask me anything about REC Azamgarh!")
 user_input = st.text_input("Your Question:")
 
 if user_input:
-    # Check if the user is asking about the chatbot's identity
+   
     user_input_lower = user_input.lower().strip()
     if any(phrase in user_input_lower for phrase in ["who are you", "what are you", "who is this", "what is this"]):
         st.markdown("### 🧠 Answer:\nI am REC Azamgarh Chatbot, here to help you with information about Rajkiya Engineering College, Azamgarh!")
