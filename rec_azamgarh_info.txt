@@ -1,0 +1,79 @@
+=== ABOUT RAJKIYA ENGINEERING COLLEGE, AZAMGARH ===
+
+Rajkiya Engineering College, Azamgarh is a leading government engineering college in Uttar Pradesh, India. 
+Established by the UP Government on September 8, 2010, it is approved by AICTE and affiliated with Dr. A.P.J. Abdul Kalam Technical University (AKTU), Lucknow.
+Location: Village Akbalpur, Post Devgaon, Azamgarh, Uttar Pradesh – 276201.
+Formerly known as Manyawar Kanshiram Engineering College of Information Technology.
+
+The college offers B.Tech programs in:
+- Civil Engineering (Intake: 60)
+- Mechanical Engineering (Intake: 60)
+- Information Technology (Intake: 60)
+
+=== DEPARTMENTS ===
+
+Civil Engineering:
+A branch of engineering concerned with the design, construction, and maintenance of infrastructure projects such as roads, bridges, buildings, and dams. 
+Intake: 60
+Facilities: Faculty, Labs
+
+Mechanical Engineering:
+A branch of engineering dealing with the design, construction, and operation of machinery and mechanical systems.
+Intake: 60
+Facilities: Faculty, Labs
+
+Information Technology:
+Focuses on the use of computers, networks, software, and telecommunications to manage data.
+Intake: 60
+Facilities: Faculty, Labs
+
+Applied Science & Humanities:
+An interdisciplinary field integrating scientific principles with humanities to address real-world problems.
+Facilities: Faculty, Labs
+
+=== DIRECTOR'S MESSAGE ===
+
+Prof. B K Tripathi, Director
+Qualifications: B.Tech (HBTI Kanpur), M.Tech (IIT Delhi), PhD (IIT Kanpur)
+Message: Greetings and a warm welcome to all students. I am committed to fostering personal discipline, leadership, entrepreneurship, and integrity in our students. Our resourceful teachers and excellent infrastructure help students achieve their goals.
+
+=== NOTICES ===
+
+- March 20, 2025: Registration notice for B.Tech 1st and 2nd year students for even semester 2024-25.
+- January 30, 2025: Even Semester Registration Notice for Session 2024-25.
+- October 11, 2024: Special Round Counselling for admission against vacant seats.
+- August 29, 2024: Commencement of induction/classes for 1st-year students.
+- August 16, 2024: Registration for 4th-year students.
+- August 7, 2024: Tentative Schedule UPTAC 2024.
+
+=== PLACEMENTS ===
+
+Recent Placements:
+- Sangh Jyoti Rana, B.Tech, CRDT (10 LPA)
+- Umam Ariba Siddiqui, B.Tech, Planetspark (6.5 LPA), Byju's (3.6 LPA)
+- Yashwant Rao, B.Tech, CRDT (10 LPA)
+- Saurabh Kumar, B.Tech (ME), CRDT (10 LPA)
+- Kamini Nishad, B.Tech (ME), CRDT (10 LPA)
+
+Recruiters: [List of recruiter names]
+
+=== FACILITIES ===
+
+- Library
+- Co-curricular Activities
+- Gallery
+- Training & Placement Cell
+
+=== CONTACT INFORMATION ===
+
+Email: office@gecazamgarh.ac.in
+Contact No: +91 9560219603
+Address: Village Akbalpur, Post Devgaon, Azamgarh, Uttar Pradesh – 276201
+
+=== IMPORTANT LINKS ===
+
+- AKTU: [https://aktu.ac.in/]
+- UP Government: [https://up.gov.in/en]
+- Swayam: [Link]
+- Jan Sunwai Portal: [Link]
+- NPTEL Courses: [Link]
