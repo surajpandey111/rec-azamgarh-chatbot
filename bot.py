@@ -7,7 +7,7 @@ import google.generativeai as genai
 import os
 
 # Set up Gemini API
-genai.configure(api_key=os.getenv("GEMINI_API_KEY", "AIzaSyAccMg6J9cA1BgyAEOvrGtLQ9RH7YbGQhc"))  # Replace with your actual API key
+genai.configure(api_key=os.getenv("GEMINI_API_KEY", "your-actual-api-key"))  # Replace with your actual API key
 gemini = genai.GenerativeModel("gemini-1.5-flash")  # Use a valid model name
 
 # Load and split documents (cached globally)
@@ -39,14 +39,19 @@ st.write("Ask me anything about REC Azamgarh!")
 user_input = st.text_input("Your Question:")
 
 if user_input:
-    # Get context from FAISS
-    search_results = db.similarity_search_with_score(user_input, k=3)
-    context = "\n".join([doc.page_content for doc, _ in search_results])
+    # Check if the user is asking about the chatbot's identity
+    user_input_lower = user_input.lower().strip()
+    if any(phrase in user_input_lower for phrase in ["who are you", "what are you", "who is this", "what is this"]):
+        st.markdown("### 🧠 Answer:\nI am REC Azamgarh Chatbot, here to help you with information about Rajkiya Engineering College, Azamgarh!")
+    else:
+        # Get context from FAISS for other queries
+        search_results = db.similarity_search_with_score(user_input, k=3)
+        context = "\n".join([doc.page_content for doc, _ in search_results])
 
-    prompt = f"Use the following context to answer the question:\n\n{context}\n\nQuestion: {user_input}"
+        prompt = f"Use the following context to answer the question:\n\n{context}\n\nQuestion: {user_input}"
 
-    try:
-        response = gemini.generate_content(prompt)
-        st.markdown(f"### 🧠 Answer:\n{response.text}")
-    except Exception as e:
-        st.error(f"❌ Gemini Error: {e}")
+        try:
+            response = gemini.generate_content(prompt)
+            st.markdown(f"### 🧠 Answer:\n{response.text}")
+        except Exception as e:
+            st.error(f"❌ Gemini Error: {e}")
