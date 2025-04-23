@@ -15,7 +15,7 @@ gemini = genai.GenerativeModel("gemini-2.0-flash")
 def load_documents():
     loader = TextLoader("rec_azamgarh_info.txt")
     docs = loader.load()
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=2500, chunk_overlap=250)
     return text_splitter.split_documents(docs)
 
 
