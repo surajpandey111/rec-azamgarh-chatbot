@@ -45,7 +45,7 @@ if user_input:
         st.markdown("### 🧠 Answer:\nI am REC Azamgarh Chatbot, here to help you with information about Rajkiya Engineering College, Azamgarh!")
     else:
         # Get context from FAISS for other queries
-        search_results = db.similarity_search_with_score(user_input, k=3)
+        search_results = db.similarity_search_with_score(user_input, k=6)
         context = "\n".join([doc.page_content for doc, _ in search_results])
 
         prompt = f"Use the following context to answer the question:\n\n{context}\n\nQuestion: {user_input}"
