@@ -196,6 +196,12 @@ Dean Student’s Welfare
 - **Mr. Manjeet Jaiswar** (M.Tech, MMMUT): Data Structures  
 - **Mr. Mahesh Kumar Vishwakarma** (M.Tech): Computer Networks  
 
+=== DIRECTOR'S MESSAGE ===
+
+Prof. B K Tripathi, Director
+Qualifications: B.Tech (HBTI Kanpur), M.Tech (IIT Delhi), PhD (IIT Kanpur)
+Message: Greetings and a warm welcome to all students. I am committed to fostering personal discipline, leadership, entrepreneurship, and integrity in our students. Our resourceful teachers and excellent infrastructure help students achieve their goals.
+
 === HOSTEL DETAILS ===
 **Hostels**: 3 (Visvesvaraya, Ramanujan, Kalpana Chawala; 84 rooms each)  
 **Facilities**: Mess, Common Hall per hostel  
