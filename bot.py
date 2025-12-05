@@ -33,7 +33,7 @@ docs = load_documents()
 db = embed_documents(docs)
 
 # Streamlit UI
-st.title("📚 REC Azamgarh Chatbot")
+st.title("📚 REC Azamgarh AI Chatbot")
 st.write("Ask me anything about REC Azamgarh!")
 
 user_input = st.text_input("Your Question:")
@@ -54,4 +54,5 @@ if user_input:
             response = gemini.generate_content(prompt)
             st.markdown(f"### 🧠 Answer:\n{response.text}")
         except Exception as e:
+
             st.error(f"❌ Gemini Error: {e}")
