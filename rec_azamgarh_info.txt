@@ -5,6 +5,8 @@ Established by the UP Government on September 8, 2010, it is approved by AICTE a
 Location: Village Akbalpur, Post Devgaon, Azamgarh, Uttar Pradesh – 276201.
 Formerly known as Manyawar Kanshiram Engineering College of Information Technology.
 
+THIS WAS COLLEGE AI PROJECT DEVELOPED BY SURAJ KUMAR PANDEY UNDER MENTORSHIP OF DR. ASHOK KUAMR YADAV (SUPER GENIOUS SIR)
+
 The college offers B.Tech programs in:
 - Civil Engineering (Intake: 60)
 - Mechanical Engineering (Intake: 60)
@@ -228,4 +230,5 @@ Message: Greetings and a warm welcome to all students. I am committed to fosteri
 - Mr. Vishal Kumar (Civil)  
 - Mr. Ashok Kumar Yadav (IT)  
 - Mr. Amit Bhaskar (Mechanical)  
+
 - Mr. Amit Kumar (Civil)
