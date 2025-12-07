@@ -8,7 +8,7 @@ import os
 
 
 genai.configure(api_key=os.getenv("GEMINI_API_KEY", "your-actual-api-key"))
-gemini = genai.GenerativeModel("gemini-2.0-flash") 
+gemini = genai.GenerativeModel("gemini-2.5-flash") 
 
 
 @st.cache_resource
@@ -56,3 +56,4 @@ if user_input:
         except Exception as e:
 
             st.error(f"❌ Gemini Error: {e}")
+
