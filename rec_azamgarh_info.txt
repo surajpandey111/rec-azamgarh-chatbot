@@ -5,7 +5,18 @@ Established by the UP Government on September 8, 2010, it is approved by AICTE a
 Location: Village Akbalpur, Post Devgaon, Azamgarh, Uttar Pradesh – 276201.
 Formerly known as Manyawar Kanshiram Engineering College of Information Technology.
 
+
+===About the Developer===
+• Name: Suraj Kumar Pandey
+• Program: B.Tech – Information Technology
+• Institute: Rajkiya Engineering College, Azamgarh
+• Role: Developer & Project Lead – AI Hub
+• Focus Areas: Agentic AI, RAG Systems, FAISS, Document Intelligence
+Note: This AI system is developed as part of an academic project to assist students and faculty with instant, reliable college information.
+
 THIS WAS COLLEGE AI PROJECT DEVELOPED BY SURAJ KUMAR PANDEY UNDER MENTORSHIP OF DR. ASHOK KUAMR YADAV (SUPER GENIOUS SIR)
+============================================================================================================================
+
 
 The college offers B.Tech programs in:
 - Civil Engineering (Intake: 60)
@@ -232,3 +243,4 @@ Message: Greetings and a warm welcome to all students. I am committed to fosteri
 - Mr. Amit Bhaskar (Mechanical)  
 
 - Mr. Amit Kumar (Civil)
+
