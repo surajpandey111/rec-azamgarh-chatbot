@@ -14,7 +14,7 @@ Formerly known as Manyawar Kanshiram Engineering College of Information Technolo
 • Focus Areas: Agentic AI, RAG Systems, FAISS, Document Intelligence
 Note: This AI system is developed as part of an academic project to assist students and faculty with instant, reliable college information.
 
-THIS WAS COLLEGE AI PROJECT DEVELOPED BY SURAJ KUMAR PANDEY UNDER MENTORSHIP OF DR. ASHOK KUAMR YADAV (SUPER GENIOUS SIR)
+THIS WAS COLLEGE AI PROJECT DEVELOPED BY SURAJ KUMAR PANDEY UNDER MENTORSHIP OF Prof. B K Tripathi Sir(SUPER GENIOUS SIR)
 ============================================================================================================================
 
 
